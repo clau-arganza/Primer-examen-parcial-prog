@@ -4,7 +4,7 @@ Este programa simula un sistema concurrente de recepción y procesamiento de im�
 El sistema está dividido en dos partes:
 - Recepción de imágenes: las imágenes llegan de forma continua e impredecible.
 - Procesamiento de imágenes: las imágenes almacenadas se procesan una a una.
-- 
+
 Para resolver el problema se ha utilizado el patrón producer-consumer:
 
 - Productor: la parte del programa que recibe imágenes.
